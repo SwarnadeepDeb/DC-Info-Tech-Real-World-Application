@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.banner-container {
+    background: url('/images/bg-call.jpg') no-repeat center center / cover;
+    color: #fff;
+    position: relative;
+    height: 260px;
+    
+    margin-bottom: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    padding-bottom: 0;
+}
+
+.logo {
+    height: 100px;
+    width: 130px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.header-extended{
+    text-align: center;
+}
+.select-backgroud{
+    background-color: #20242670;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.contact-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 60px;
+    height: 400px;
+    margin-bottom: 200px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+.contact-info h6{
+    color : #00579A;
+    font-size : 1rem;
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.contact-info h2{
+    color : #212529;
+    font-size : 2rem;
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.contact-info-container{
+    display: flex;
+    flex-direction: row;
+}
+.contact-info-container .contact-info-icon{
+    width: 45px;
+    height: 45px;
+    background-color: #00579A;
+    font-size: 18px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info-container .contact-info-text{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-info-text small{
+    display: block;
+    font-size: 19px;
+    color: #005799;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form {
+    padding: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 5px 7px 15px 2px rgb(82 90 101 / 12%);
+    margin: 0 0 0 35px;
+}
+.contact-form h6{
+    color: #212529;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.contact-form h2{
+    color: #212529;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+.contact-form a{
+    background-color: #00579A;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+.input-fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.input-fields input{
+    height: 45px;
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    background-color: #F1F1F1;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.message-field textarea{
+    padding: 6px 12px;
+    background-color: #F1F1F1;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
+    border: none;
+} 
+
+
+
+
+
+
+
+
+
+
+#footer-block{
+    width: 100%;
+    background-color: #212529;
+    margin-top: 100px;
+    color: white;
+}
+.content-container{
+    padding: 60px;
+    width: 100%;
+    color: #333333;
+}
+.subcribe-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding:30px;
+    background-color: #00579A;
+    border-radius: 5px;
+    position: relative;
+    top:-100px;
+}
+.subcribe-div .col{
+    width: 50%;
+}
+.subcribe-div .col .input-container
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+
+.subcribe-div .col h2{
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.subcribe-div .col input[type="text"]{
+    /* font-size: 25px; */
+    background-color: #FFFFFF;
+    padding: 6px 12px;
+    height: 45px;
+    border-radius: 5px 0px 0px 5px;
+    text-decoration: none;
+    border: none;
+    width: 70%;
+    margin: 0;
+
+}
+.subcribe-div .col input[type="submit"]{
+    font-weight:400;
+    color: #FFFFFF;
+    background-color: #212529;
+    text-align: center;
+    padding: 6px 12px;
+    height: 45px;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    margin: 0;
+}
+
+.content-container{
+
+}
+
+
+.content{
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.content .col{
+    width: 25%;
+    padding: 0 15px;
+}
+.content .col h5{
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+.content .col li{
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+.content .col a{
+    font-size: 14px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.copyright-container{
+    padding: 32px;
+    text-align: center;
+}

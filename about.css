@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.banner-container {
+    background: url('/images/bg-call.jpg') no-repeat center center / cover;
+    color: #fff;
+    position: relative;
+    height: 260px;
+    
+    margin-bottom: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    padding-bottom: 0;
+}
+
+.logo {
+    height: 100px;
+    width: 130px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.header-extended{
+    text-align: center;
+}
+.select-backgroud{
+    background-color: #20242670;
+    border-radius: 5px;
+}
+
+
+
+
+
+.about-content{
+    padding: 60px;
+}
+.row1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+}
+.row1 .image-block{
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    height: 500px;
+    object-fit: contain;
+}
+.row1 .image-description{
+    padding: 20px;
+    width: 100%;
+}
+.row1 .image-block .small-image{
+    width: 400px;
+    position: absolute;
+    bottom:-15px ;
+    left: -10px;
+    border-radius: 10px;
+}
+.row1 .image-block .large-image{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+.image-description h2{
+    color: #212529;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+.image-description h6{
+    color: #212529;
+    font-size: 1rem;
+    margin: 24px 0px 24px 0px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.image-description p{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #F8F9FA;
+    padding: 60px;
+}
+.row2 img{
+    width: 200px;
+    height: 195px;
+    margin-top: 24px;
+    align-self: center;
+}
+.row2 h2{
+    color: #006EFD;
+    font-size: 2rem;
+    margin-bottom: 8px;
+
+}
+.row2 p{
+    color: #212529;
+    font-size: 20px;
+    margin: 16px 0px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+#footer-block{
+    width: 100%;
+    background-color: #212529;
+    margin-top: 100px;
+    color: white;
+}
+.content-container{
+    padding: 60px;
+    width: 100%;
+    color: #333333;
+}
+.subcribe-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding:30px;
+    background-color: #00579A;
+    border-radius: 5px;
+    position: relative;
+    top:-100px;
+}
+.subcribe-div .col{
+    width: 50%;
+}
+.subcribe-div .col .input-container
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+
+.subcribe-div .col h2{
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.subcribe-div .col input[type="text"]{
+    /* font-size: 25px; */
+    background-color: #FFFFFF;
+    padding: 6px 12px;
+    height: 45px;
+    border-radius: 5px 0px 0px 5px;
+    text-decoration: none;
+    border: none;
+    width: 70%;
+    margin: 0;
+
+}
+.subcribe-div .col input[type="submit"]{
+    font-weight:400;
+    color: #FFFFFF;
+    background-color: #212529;
+    text-align: center;
+    padding: 6px 12px;
+    height: 45px;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    margin: 0;
+}
+
+.content-container{
+
+}
+
+
+.content{
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.content .col{
+    width: 25%;
+    padding: 0 15px;
+}
+.content .col h5{
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+.content .col li{
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+.content .col a{
+    font-size: 14px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.copyright-container{
+    padding: 32px;
+    text-align: center;
+}
