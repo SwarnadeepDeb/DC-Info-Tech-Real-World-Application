@@ -7,7 +7,7 @@
 }
 
 .banner-container {
-    background: url('/images/bg-call.jpg') no-repeat center center / cover;
+    background: url('images/bg-call.jpg') no-repeat center center / cover;
     
     color: #fff;
     position: relative;
@@ -94,7 +94,7 @@ header nav a {
 }
 
 .hero-image{
-    background-image: url('/images/pngwing.com\ \(1\).png');
+    background-image: url('images/pngwing.com\ \(1\).png');
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
