@@ -7,7 +7,7 @@ Welcome to the project, this is a visually engaging static website. This project
 
 You can view the live website [here](https://swarnadeepdeb.github.io/DC-Info-Tech-Real-World-Application/).
 
-## Screenshot
+## Screenshots
 
 ![Project Home Page](images/home.png).
 ![Project Our Innovation Page](images/innovation.png).
