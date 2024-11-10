@@ -9,11 +9,30 @@ You can view the live website [here](https://swarnadeepdeb.github.io/DC-Info-Tec
 
 ## Screenshots
 
-![Project Home Page](images/home.png).
-![Project Our Innovation Page](images/innovation.png).
-![Project About Page](images/about.png).
-![Project Pricing Page](images/pricing.png).
-![Project Contact Page](images/contact.png).
+### Desktop View
+- **Home Page**  
+  ![Project Home Page](images/home.png)
+- **Our Innovation Page**  
+  ![Project Our Innovation Page](images/innovation.png)
+- **About Page**  
+  ![Project About Page](images/about.png)
+- **Pricing Page**  
+  ![Project Pricing Page](images/pricing.png)
+- **Contact Page**  
+  ![Project Contact Page](images/contact.png)
+
+### Mobile View
+- **Home Page**  
+  ![Mobile Home Page](images/home-m.png)
+- **Our Innovation Page**  
+  ![Mobile Innovation Page](images/innovation-m.png)
+
+### Tablet View
+- **Home Page**  
+  ![Tablet Home Page](images/home-t.png)
+- **Our Innovation Page**  
+  ![Tablet Innovation Page](images/innovation-t.png)
+
 ## Project Structure
 
 The project consists of the following files and folders:
