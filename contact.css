@@ -37,6 +37,10 @@ header nav a {
     padding: 10px 15px;
     text-decoration: none;
 }
+.handbarger{
+    font-size: 35px;
+    display: none;
+}
 .header-extended{
     text-align: center;
 }
@@ -280,3 +284,222 @@ a{
     padding: 32px;
     text-align: center;
 }
+i{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 615.98px) {
+    /* Styles here */
+    .hero-about-btn{
+        padding: 10px 40px;
+    }
+    
+    .hero-contact-btn{
+        padding: 10px 40px;
+    }
+    .hero h1 {
+        font-size: 1.9rem;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #hero-container{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content:flex-start;
+        align-items: center;
+        padding: 20px;
+    }
+    .hero{
+        text-align: center;
+        width: 100%;
+    }
+    .hero-image{
+        width: 400px;
+    }
+    header nav{
+        display: none;
+    }
+    .about-container{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .about-img img{
+        border-radius: 15px;
+    }
+    .about-img{
+        margin: 0;
+    }
+    .about-details{
+        padding: 50px 0px;
+    }
+    .service-block{
+        padding: 0 20px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content .col{
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+    .content .col li{
+        list-style-type: none;
+    }
+    .content-container{
+        padding: 20px;
+    }
+    .subcribe-div{
+        flex-direction: column;
+    }
+    .subcribe-div .col {
+        width: 100%;
+    }
+    .subcribe-div .col h2{
+        text-align: left;
+    }
+    .subcribe-div .col .input-container
+    {
+        justify-content:start;
+        align-items: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+    header{
+        padding: 20px 20px;
+    }
+    .contact-block{
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 60px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .contact-block{
+        padding: 20px;
+    }
+    .contact-form{
+        margin: 0;
+        width: 100%;
+        
+        margin-top: 60px;
+    }
+    .handbarger{
+        display: inline-block;
+    }
+  }
+  
+  /* Medium devices (tablets, less than 992px) */
+  @media (min-width: 616px) and (max-width: 1029.98px) {
+    #hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .hero {
+        text-align: center;
+        width: 90%;
+    }
+    .hero-image {
+        width: 400px;
+    }
+    header nav {
+        display: none;
+    }
+    .hero h1 {
+        font-size: 1.9rem;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .about-container{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about-img img{
+        border-radius: 45px;
+    }
+    .about-details{
+        padding: 50px 24px;
+    }
+    .about-img img{
+        border-radius: 15px;
+        padding: 0;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content .col{
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 20px;
+    }
+    .content .col li{
+        list-style-type: none;
+    }
+    .content-container{
+        padding: 20px;
+    }
+    .subcribe-div{
+        flex-direction: column;
+    }
+    .subcribe-div .col {
+        width: 100%;
+    }
+    .subcribe-div .col h2{
+        text-align: left;
+    }
+    .subcribe-div .col .input-container
+    {
+        justify-content:start;
+        align-items: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .contact-block{
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        width: 100%;
+        padding: 60px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .contact-block{
+        padding: 20px;
+    }
+    .contact-form{
+        margin: 0;
+        width: 100%;
+        
+        margin-top: 60px;
+    }
+    .handbarger{
+        display: inline-block;
+    }
+}
+
+  
+  /* Large devices (desktops, less than 1200px) */
+  @media (min-width:1030px) and (max-width: 1299.98px) {
+    /* Styles here */
+    .hero h1 {
+        font-size: 2.0rem;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+  }
