@@ -35,9 +35,18 @@ header nav a {
     padding: 10px 15px;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
 .handbarger{
-    font-size: 35px;
     display: none;
+}
+.handbarger i{
+    font-size: 1.7rem;
+    cursor: pointer;
 }
 .header-extended{
     text-align: center;

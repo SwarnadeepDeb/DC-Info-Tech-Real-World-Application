@@ -43,11 +43,19 @@ header nav a {
     padding: 10px 15px;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
 .handbarger{
-    font-size: 35px;
     display: none;
 }
-
+.handbarger i{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
 #hero-container{
     display: flex;
     flex-direction: row;
@@ -366,7 +374,7 @@ section {
     font-size: 14px;
     font-weight: 300;
 }
-a{
+#footer-block a{
     text-decoration: none;
     color: #FFFFFF;
 }
