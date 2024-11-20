@@ -31,31 +31,75 @@
           <a href="about.html">About</a>
           <a href="pricing.html">Pricing</a>
           <a href="contact.html">Contact</a>
+          <a type="button" class="btn btn-primary support" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@getbootstrap" href="contact.html">Get It Support</a>
         </nav>
         <div class="handbarger">
-          <i class="fa-solid fa-bars handbarger" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i>
+          <i class="fa-solid fa-bars handbarger" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"></i>
 
           <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
             aria-labelledby="offcanvasWithBothOptionsLabel">
             <div class="offcanvas-header">
-              <img class="offcanvas-title" id="offcanvasWithBothOptionsLabel" src="images/logo.png" alt="Logo" width="100px" height="100px"/>
-              <button type="button" class="btn-close btn-sm" data-bs-dismiss="offcanvas" aria-label="Close" style="width: 6px; height: 6px; margin-right: 20px;"></button>
+              <img class="offcanvas-title" id="offcanvasWithBothOptionsLabel" src="images/logo.png" alt="Logo"
+                width="100px" height="100px" />
+              <button type="button" class="btn-close btn-sm" data-bs-dismiss="offcanvas" aria-label="Close"
+                style="width: 6px; height: 6px; margin-right: 20px;"></button>
             </div>
             <div class="offcanvas-body lh-lg fw-medium">
               <ul style="padding: 5px; font-size: 1.2rem;">
                 <li class="border-bottom"><a class="text-black-50 " href="ourInnovations.html">Our Innovations</a></li>
-                <li class="border-bottom"><a class="text-black-50" href="index.html" class="select-backgroud">Home</a></li>
+                <li class="border-bottom"><a class="text-black-50" href="index.html" class="select-backgroud">Home</a>
+                </li>
                 <li class="border-bottom"><a class="text-black-50" href="about.html">About</a></li>
                 <li class="border-bottom"><a class="text-black-50" href="pricing.html">Pricing</a></li>
                 <li class="border-bottom"><a class="text-black-50" href="contact.html">Contact</a></li>
               </ul>
+              <a type="button" class="btn btn-primary support" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                data-bs-whatever="@getbootstrap" href="contact.html">Get It Support</a>
             </div>
           </div>
 
 
         </div>
       </header>
+
+      <div class="modal fade text-black" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-bolder" id="exampleModalLabel">Get IT Support</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="name" placeholder="Full Name">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control " id="email" placeholder="Email">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="subject" placeholder="Subject">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="phone" placeholder="Phone">
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control " id="message" placeholder="Message"></textarea>
+                </div>
+              </form>
+              <p id="success-message" class="success"></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="submit" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <section id="hero-container">
         <div class="hero">
           <h1>
@@ -79,7 +123,8 @@
     <div class="service-container">
       <div class="service">
         <img src="images/it-icon.png" alt="" class="hovor-off" />
-        <!-- <img src="/images/it-icon-hover.png" alt="" class="hovor-on" /> -->
+        <img src="/images/it-icon-hover.png" alt="" class="hovor-on" />
+
         <h5>WordPress Solution</h5>
         <p>
           Delivering custom WordPress solutions for a powerful and flexible
@@ -88,7 +133,7 @@
       </div>
       <div class="service">
         <img src="images/web-icon.png" alt="" class="hovor-off" />
-        <!-- <img src="/images/web-icon-hover.png" alt="" class="hovor-on" /> -->
+        <img src="/images/web-icon-hover.png" alt="" class="hovor-on" />
         <h5>WordPress Solution</h5>
         <p>
           Delivering custom WordPress solutions for a powerful and flexible
@@ -97,7 +142,7 @@
       </div>
       <div class="service">
         <img src="images/network.png" alt="" class="hovor-off" />
-        <!-- <img src="/images/network-hover.png" alt="" class="hovor-on" /> -->
+        <img src="/images/network-hover.png" alt="" class="hovor-on" />
         <h5>WordPress Solution</h5>
         <p>
           Delivering custom WordPress solutions for a powerful and flexible
@@ -106,7 +151,7 @@
       </div>
       <div class="service">
         <img src="images/seo-icon.png" alt="" class="hovor-off" />
-        <!-- <img src="/images/seo-icon-hover.png" alt="" class="hovor-on" /> -->
+        <img src="/images/seo-icon-hover.png" alt="" class="hovor-on" />
         <h5>WordPress Solution</h5>
         <p>
           Delivering custom WordPress solutions for a powerful and flexible
@@ -115,7 +160,7 @@
       </div>
       <div class="service">
         <img src="images/apps-icon.png" alt="" class="hovor-off" />
-        <!-- <img src="/images/apps-icon-hover.png" alt="" class="hovor-on" /> -->
+        <img src="/images/apps-icon-hover.png" alt="" class="hovor-on" />
         <h5>WordPress Solution</h5>
         <p>
           Delivering custom WordPress solutions for a powerful and flexible
@@ -124,7 +169,7 @@
       </div>
       <div class="service">
         <img src="images/data-icon.png" alt="" class="hovor-off" />
-        <!-- <img src="/images/data-icon-hover.png" alt="" class="hovor-on" /> -->
+        <img src="/images/data-icon-hover.png" alt="" class="hovor-on" />
         <h5>WordPress Solution</h5>
         <p>
           Delivering custom WordPress solutions for a powerful and flexible
@@ -211,10 +256,10 @@
           <h2>Sign Up Our Newsletter</h2>
         </div>
         <div class="col">
-          <div class="input-container">
-            <input type="text" placeholder="Enter your email" />
+          <form class="input-container">
+            <input id="NLemail" type="email" placeholder="Enter your email" required />
             <input type="Submit" value="Subscribe" />
-          </div>
+          </form>
         </div>
       </div>
       <div class="content">
@@ -279,5 +324,6 @@
     </div>
   </footer>
 </body>
+<script src="/index.js"></script>
 
 </html>
